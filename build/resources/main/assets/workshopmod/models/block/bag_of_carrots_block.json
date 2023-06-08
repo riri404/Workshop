@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "workshopmod:block/bag_of_carrots_block"
+  }
+}
