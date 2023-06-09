@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "workshopmod:block/mario_mushroom_blank",
+    "up": "workshopmod:block/mario_mushroom_blank",
+    "north": "workshopmod:block/mario_mushroom_block",
+    "east": "workshopmod:block/mario_mushroom_block",
+    "south": "workshopmod:block/mario_mushroom_block",
+    "west": "workshopmod:block/mario_mushroom_block",
+    "particle": "workshopmod:block/mario_mushroom_blank"
+  }
+}
