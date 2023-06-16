@@ -32,8 +32,8 @@ public class Registration {
     public static final RegistryObject<Block> DISCO_BALL_BLOCK = BLOCKS.register("disco_ball_block", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops().lightLevel(blockstate->14)));
     public static final RegistryObject<Item> DISCO_BALL_BLOCK_ITEM = fromBlock(DISCO_BALL_BLOCK);
 
-    public static final RegistryObject<Block> MARIO_MUSHROOM_BLOCK = BLOCKS.register("mario_mushroom_block", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops().noOcclusion()));
-    public static final RegistryObject<Item> MARIO_MUSHROOM_BLOCK_ITEM = fromBlock(MARIO_MUSHROOM_BLOCK);
+    public static final RegistryObject<Block> SPECIAL_MUSHROOM_BLOCK = BLOCKS.register("special_mushroom_block", ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+    public static final RegistryObject<Item> SPECIAL_MUSHROOM_BLOCK_ITEM = fromBlock(SPECIAL_MUSHROOM_BLOCK);
 
     //Create RegistryObjects for items
     public static final RegistryObject <Item> BABY_CARROT_ITEM = ITEMS.register("baby_carrot_item", ()->new Item(new Item.Properties()));
