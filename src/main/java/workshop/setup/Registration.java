@@ -38,6 +38,8 @@ public class Registration {
     //Create RegistryObjects for items
     public static final RegistryObject <Item> BABY_CARROT_ITEM = ITEMS.register("baby_carrot_item", ()->new Item(new Item.Properties()));
 
+    public static final RegistryObject <Item> MAGIC_WAND = ITEMS.register("magic_wand", () -> new Item(new Item.Properties()));
+
     //Create item from existing block RegistryObject
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

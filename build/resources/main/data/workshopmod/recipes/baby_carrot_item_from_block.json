@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "workshopmod:bag_of_carrots_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "workshopmod:baby_carrot_item"
+  }
+}
