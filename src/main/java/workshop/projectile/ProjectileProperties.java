@@ -19,8 +19,8 @@ public class ProjectileProperties extends AbstractArrow {
         super(entity,x,y,z,world);
     }
 
-    public ProjectileProperties(EntityType<? extends AbstractArrow> entity, LivingEntity player, Level world) {
-        super(entity, player, world);
+    public ProjectileProperties(EntityType<? extends AbstractArrow> entity, LivingEntity characters, Level world) {
+        super(entity, characters, world);
     }
 
     @Override
