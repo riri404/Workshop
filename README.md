@@ -2,13 +2,14 @@
 
 ## Description
 
-
 ## Requirements
 This workshop assumes basic java knowledge. For a refresher, see the [Java Introduction page](https://github.com/riri404/Workshop/wiki/Java-Introduction).
 ### IntelliJ
 Download and install [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 ### Java Development Kit
 Download and install a [JDK](https://adoptium.net/temurin/releases/)
+### Mod Development Kit
+Download an [MDK](https://files.minecraftforge.net/net/minecraftforge/forge/). Choose the version corresponding to the Minecraft version you will be modding. Opt for "Download Recommended", choose "Mdk". This part looks sketchy... but is safe!
 
 ## Cloning
 
