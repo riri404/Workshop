@@ -19,6 +19,7 @@ public class Registration {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WorkshopMod.MOD_ID);
     public static final DeferredRegister <Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WorkshopMod.MOD_ID);
 
+
     public static void init() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         BLOCKS.register(bus);
@@ -39,6 +40,12 @@ public class Registration {
     public static final RegistryObject <Item> BABY_CARROT_ITEM = ITEMS.register("baby_carrot_item", ()->new Item(new Item.Properties()));
 
     public static final RegistryObject <Item> MAGIC_WAND = ITEMS.register("magic_wand", () -> new Item(new Item.Properties()));
+
+    //public static final RegistryObject <Item> PROJECTILE_WAND = ITEMS.register("projectile_wand",() -> new Item(new Item.Properties()));
+
+
+    //Create RegistryObjects for Projectile
+
 
     //Create item from existing block RegistryObject
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
