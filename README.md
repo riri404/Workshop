@@ -4,8 +4,14 @@
 
 
 ## Requirements
+This workshop assumes basic java knowledge. For a refresher, see the [Java Introduction page](https://github.com/riri404/Workshop/wiki/Java-Introduction).
+### IntelliJ
+Download and install [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+### Java Development Kit
+Download and install a [JDK](https://adoptium.net/temurin/releases/)
 
 ## Cloning
+
 ### Through IntelliJ
 1. Copy the repository URL (https://github.com/riri404/Workshop)
 2. Open IntelliJ. From the main menu, select "Get from VCS"
