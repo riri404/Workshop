@@ -1,6 +1,10 @@
 # Workshop
 
 ## Description
+Workshop 1 introduces the software and documentation required for basic Minecraft modding. During the modding walkthrough, participants will learn how to implement a custom block and item.
+
+<img src=https://github.com/en4395/Workshop_Images/blob/main/Mod_demo/Mushroom_Block.png width=550>
+<img src=https://github.com/en4395/Workshop_Images/blob/main/Mod_demo/Star_Wand_Item.png width=550>
 
 ## Requirements
 This workshop assumes basic java knowledge. For a refresher, see the [Java Introduction page](https://github.com/riri404/Workshop/wiki/Java-Introduction).
