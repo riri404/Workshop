@@ -30,10 +30,8 @@ Download an [MDK](https://files.minecraftforge.net/net/minecraftforge/forge/). C
 2. Create a directory for the project (either manually, or in the command line using `mkdir <your directory name>` command)
 3. Open the project directory using `cd <your directory name>` command
 4. Enter `git clone https://github.com/riri404/Workshop` to clone the repository into the open directory
-5. Open IntelliJ. From the main menu, select "Open"
-6. Locate the mod directory in the file manager window. Select "Open"
-7. Choose "Trust Project"
-8. Wait for "Gradle: build" to complete (this may take several minutes)
+5. Enter `./gradlew build` command
+6. Wait until `BUILD SUCCESSFUL` is output
 ## Build and Run
 Once the repository is cloned and the build is complete, the mod is ready to run. 
 
