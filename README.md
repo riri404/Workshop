@@ -35,5 +35,18 @@ Download an [MDK](https://files.minecraftforge.net/net/minecraftforge/forge/). C
 7. Choose "Trust Project"
 8. Wait for "Gradle: build" to complete (this may take several minutes)
 ## Build and Run
+Once the repository is cloned and the build is complete, the mod is ready to run. 
 
+### Through IntelliJ
+1. On the right side of the window, click on the "Gradle" tab
+2. Open the <ProjectName> dropdown, click "Tasks", "forgegradleruns"
+3. Click on `runClient`
+4. Wait for Minecraft to launch
+
+
+### Using command line (or Terminal on Mac)
+1. Open command line/Terminal
+2. Open the project directory using `cd <your directory name>` command
+3. Enter `./gradlew runClient` (or `gradlew runClient` on Windows)
+4. Wait for Minecraft to launch 
 ## Credits
