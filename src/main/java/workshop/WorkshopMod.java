@@ -54,9 +54,6 @@ public class WorkshopMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(Registration.BABY_CARROT_ITEM);
-            event.accept(Registration.BAG_OF_CARROTS_BLOCK_ITEM);
-            event.accept(Registration.DISCO_BALL_BLOCK_ITEM);
             event.accept(Registration.SPECIAL_MUSHROOM_BLOCK_ITEM);
         }
         if(event.getTab() == CreativeModeTabs.COMBAT){
