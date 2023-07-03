@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Workshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Workshop.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Workshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Workshop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop.Workshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop.Workshop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop.Workshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop.Workshop.test.iml" />
     </modules>
   </component>
 </project>

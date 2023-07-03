@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_axe": "2023-07-03 10:58:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2023-07-03 10:58:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_axe": "2023-07-03 10:58:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2023-07-03 10:56:20 -0400",
+      "minecraft:cold_ocean": "2023-07-03 10:57:17 -0400",
+      "minecraft:forest": "2023-07-03 10:55:43 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

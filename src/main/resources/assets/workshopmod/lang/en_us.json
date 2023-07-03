@@ -1,3 +1,8 @@
 {
-  "block.workshopmod.special_mushroom_block": "Special Mushroom"
+
+  "block.workshopmod.special_mushroom_block": "Special Mushroom",
+  "item.workshopmod.magic_wand" : "Magic Wand"
+
+  
+
 }

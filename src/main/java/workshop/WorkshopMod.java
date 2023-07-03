@@ -56,6 +56,9 @@ public class WorkshopMod
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(Registration.SPECIAL_MUSHROOM_BLOCK_ITEM);
         }
+        if(event.getTab() == CreativeModeTabs.COMBAT){
+            event.accept(Registration.MAGIC_WAND);
+        }
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
