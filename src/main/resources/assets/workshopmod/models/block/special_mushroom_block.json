@@ -1,12 +1,6 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "down": "workshopmod:block/special_mushroom_blank",
-    "up": "workshopmod:block/special_mushroom_blank",
-    "north": "workshopmod:block/special_mushroom_block",
-    "east": "workshopmod:block/special_mushroom_block",
-    "south": "workshopmod:block/special_mushroom_block",
-    "west": "workshopmod:block/special_mushroom_block",
-    "particle": "workshopmod:block/special_mushroom_blank"
+    "all": "workshopmod:block/special_mushroom_block"
   }
 }
