@@ -7,7 +7,7 @@ import workshop.WorkshopMod;
 
 @Mod.EventBusSubscriber(modid = WorkshopMod.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ClientSetup {
-    public static void init(final FMLClientSetupEvent event){
+    public static void init(final FMLClientSetupEvent event) {
 
     }
 }
