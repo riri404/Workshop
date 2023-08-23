@@ -1,4 +1,6 @@
 {
+
+  //change the entity type!
   "parent": "minecraft:block/cube",
   "textures": {
     "down": "workshopmod:block/special_mushroom_blank",

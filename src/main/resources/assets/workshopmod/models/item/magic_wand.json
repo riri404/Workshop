@@ -1,4 +1,6 @@
 {
+
+  //change the entity type
   "parent" :"minecraft:item/generated",
   "textures" : {
     "layer0" : "workshopmod:item/magic_wand"

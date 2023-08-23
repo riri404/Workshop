@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GITHUB DOCUMENTS.Workshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GITHUB DOCUMENTS.Workshop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GITHUB DOCUMENTS.Workshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/GITHUB DOCUMENTS.Workshop.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Workshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Workshop.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Workshop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Workshop.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/workshop.Workshop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workshop.Workshop.main.iml" />

@@ -54,10 +54,11 @@ public class WorkshopMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(Registration.SPECIAL_MUSHROOM_BLOCK_ITEM);
+            //add the event.accept(Registration. ...)
+           // event.accept(Registration.SPECIAL_MUSHROOM_BLOCK_ITEM);
         }
         if(event.getTab() == CreativeModeTabs.COMBAT){
-            event.accept(Registration.MAGIC_WAND);
+           // event.accept(Registration.MAGIC_WAND);
         }
     }
 

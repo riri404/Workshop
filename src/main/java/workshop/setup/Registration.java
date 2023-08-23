@@ -16,32 +16,22 @@ import workshop.WorkshopMod;
 public class Registration {
 
     //Register BLOCKS and ITEMS using DeferredRegisterObjects
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WorkshopMod.MOD_ID);
-    public static final DeferredRegister <Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WorkshopMod.MOD_ID);
 
-    public static void init() {
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        BLOCKS.register(bus);
-        ITEMS.register(bus);
-    }
 
     //Create RegistryObjects for blocks
 
-    public static final RegistryObject<Block> SPECIAL_MUSHROOM_BLOCK = BLOCKS.register("special_mushroom_block",
-            ()->new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops().noOcclusion()));
-    
-    //Create RegistryObjects for items
-    public static final RegistryObject <Item> MAGIC_WAND = ITEMS.register("magic_wand", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> SPECIAL_MUSHROOM_BLOCK_ITEM = fromBlock(SPECIAL_MUSHROOM_BLOCK);
+
+
+    //Create RegistryObjects for items
 
    
 
 
     //Create item from existing block RegistryObject
-    public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
-        return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
-    }
+
+
+
 }
 
 

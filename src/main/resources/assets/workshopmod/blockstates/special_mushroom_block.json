@@ -1,6 +1,7 @@
 {
   "variants": {
     "": {
+      //change the entity type
       "model": "workshopmod:block/special_mushroom_block"
     }
   }
